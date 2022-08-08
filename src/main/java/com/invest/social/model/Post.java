@@ -14,7 +14,7 @@ public class Post {
 	private String poster_guid;
 	private String access;
 	private String file_wallphoto;
-	private String last_three_reactions;
+//	private String last_three_reactions;
 	private String total_likes;
 	private String is_liked_by_user;
 	private String total_comments;
@@ -96,12 +96,12 @@ public class Post {
 	public void setFile_wallphoto(String file_wallphoto) {
 		this.file_wallphoto = file_wallphoto;
 	}
-	public String getLast_three_reactions() {
-		return last_three_reactions;
-	}
-	public void setLast_three_reactions(String last_three_reactions) {
-		this.last_three_reactions = last_three_reactions;
-	}
+//	public String getLast_three_reactions() {
+//		return last_three_reactions;
+//	}
+//	public void setLast_three_reactions(String last_three_reactions) {
+//		this.last_three_reactions = last_three_reactions;
+//	}
 	public String getTotal_likes() {
 		return total_likes;
 	}

@@ -9,7 +9,7 @@ public class PayloadAu {
 	private String email;
 	private String birthdate;
 	private String gender;
-	private boolean cover_url;
+	private String cover_url;
 	private String language;
 	private icon icon;
 	
@@ -61,17 +61,17 @@ public class PayloadAu {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public boolean isCover_url() {
-		return cover_url;
-	}
-	public void setCover_url(boolean cover_url) {
-		this.cover_url = cover_url;
-	}
 	public String getLanguage() {
 		return language;
 	}
 	public void setLanguage(String language) {
 		this.language = language;
+	}
+	public String getCover_url() {
+		return cover_url;
+	}
+	public void setCover_url(String cover_url) {
+		this.cover_url = cover_url;
 	}
 	public icon getIcon() {
 		return icon;
